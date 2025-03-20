@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  project-service:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-20T19:28:39.888617+01:00"
+    description: A Helm chart for Kubernetes
+    digest: 43b157bd6608aebbd783d39cd1fb8ef734056152fd6f43a5486e6abf797593f1
+    name: project-service
+    type: application
+    urls:
+    - https://nelsonjanusson.github.io/portfolio_chart_repo/project-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2025-03-20T19:28:39.888249+01:00"
