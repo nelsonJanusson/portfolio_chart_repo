@@ -9,10 +9,6 @@ version=$(yq eval '.version' "$yaml_file")
 
 helm package $chartname
 
-mv $chartname-$version.tgz ./charts
+mv $chartname-$version.tgz ./docs
 
-helm repo index ./charts --url https://nelsonjanusson.github.io/portfolio_chart_repo
-git reset
-git add ./charts/
-git commit -m "Add new Helm chart"
-git push origin main:test3
+helm repo index ./docs --url https://nelsonjanusson.github.io/portfolio_chart_repo
