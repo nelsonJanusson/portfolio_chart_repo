@@ -1,12 +1,12 @@
 containerPort: 8080
 
 service:
-  name: project_service-service
+  name: project-service-service
 
 deployment:
-  name: project_service-deployment
+  name: project-service-deployment
   replicas: 1
   image: nelsonjanusson/portfolio_project:project_service-latest
 
 pod:
-  name: project_service-pod
+  name: project-service-pod
