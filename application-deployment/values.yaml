@@ -21,7 +21,7 @@ frontend:
   pod:
     name: frontend-pod
   httpRoute:
-    name: frontend-httpRoute
+    name: frontend-httproute
     pathPrefix: /
 
 
