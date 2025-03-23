@@ -32,3 +32,16 @@ gateway:
     name: http-listener
     port: 8080
   
+postgresql:
+  cluster:
+    name: postgresql-cluster
+    instances: 2
+    size: 1Gi
+    database: appdata
+    owner: baseuser
+  secret:
+    name: postgresql-secret
+    password: aDHqf7ghloP=
+
+
+  
