@@ -1,5 +1,5 @@
 
-project-service:
+projectService:
   containerPort: 8080
   service:
     name: project-service-service
