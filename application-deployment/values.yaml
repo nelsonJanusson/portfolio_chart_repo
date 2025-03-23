@@ -20,6 +20,10 @@ frontend:
     image: nelsonjanusson/portfolio_project:portfolio_frontend-latest
   pod:
     name: frontend-pod
+  httpRoute:
+    name: frontend-httpRoute
+    pathPrefix: /
+
 
 gateway:
   name: cilium-gateway
