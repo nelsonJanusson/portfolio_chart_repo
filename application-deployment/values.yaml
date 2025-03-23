@@ -1,0 +1,30 @@
+
+project-service:
+  containerPort: 8080
+  service:
+    name: project-service-service
+  deployment:
+    name: project-service-deployment
+    replicas: 1
+    image: nelsonjanusson/portfolio_project:project_service-latest
+  pod:
+    name: project-service-pod
+
+frontend:
+  containerPort: 5173
+  service:
+    name: frontend-service
+  deployment:
+    name: frontend-deployment
+    replicas: 1
+    image: nelsonjanusson/portfolio_project:portfolio_frontend-latest
+  pod:
+    name: frontend-pod
+
+gateway:
+  name: cilium-gateway
+  gatewayClassName: cilium
+  listeners:  
+    name: http-listener
+    port: 8080
+  
