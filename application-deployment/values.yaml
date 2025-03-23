@@ -28,7 +28,7 @@ frontend:
 gateway:
   name: cilium-gateway
   gatewayClassName: cilium
-  listeners:  
+  listener:  
     name: http-listener
     port: 8080
   
