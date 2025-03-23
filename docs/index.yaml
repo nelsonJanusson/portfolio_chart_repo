@@ -3,12 +3,12 @@ entries:
   application-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-23T16:58:46.997067+01:00"
+    created: "2025-03-23T17:19:34.644053+01:00"
     description: A Helm chart for Kubernetes
-    digest: 838bea1eb397872f74968735a729e049d3c2f15275a632e59d74017a69992ccd
+    digest: b774d93ca58206136f1c15661e67e00b4107ada2b0f5da2129b4bf9422dcf0d3
     name: application-deployment
     type: application
     urls:
     - https://nelsonjanusson.github.io/portfolio_chart_repo/application-deployment-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-23T16:58:46.9959+01:00"
+generated: "2025-03-23T17:19:34.643614+01:00"
