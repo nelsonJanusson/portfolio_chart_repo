@@ -1,0 +1,17 @@
+apiVersion: networking.cilium.io/v2
+kind: CiliumNetworkPolicy
+metadata:
+  name: allow-service-communication
+  namespace: default
+spec:
+  endpointSelector:
+    matchLabels:
+      app: {{ .Values.projectService.service.name }}  # Service A label
+  ingress:
+  - fromEndpoints:
+    - matchLabels:
+        app: {{ .Values.frontend.service.name }} # Service B label
+    toPorts:
+    - ports:
+      - port: {{ .Values.projectService.containerPort }}
+        protocol: TCP
