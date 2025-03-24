@@ -44,4 +44,19 @@ postgresql:
     password: aDHqf7ghloP=
 
 
-  
+cilium:
+  namespaceOverride: kube-system
+  operator:
+    replicas: 1
+  kubeProxyReplacement: true
+  serviceMesh:
+    enabled: true
+  hubble:
+    enabled: true
+    relay:
+      enabled: true
+    ui:
+      enabled: true
+  gatewayAPI:
+    enabled: true
+

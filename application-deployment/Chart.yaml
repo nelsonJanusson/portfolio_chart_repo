@@ -4,6 +4,11 @@ description: the helm chart for deploying the portfolio application
 
 type: application
 
-version: 1.0.1
+version: 1.0.2
 
 appVersion: "1.0.0"
+
+dependencies:
+  - name: cilium
+    version: "1.17.2"
+    repository: "https://helm.cilium.io/"
