@@ -44,10 +44,10 @@ postgresql:
     password: aDHqf7ghloP=
 
 prometheus:
-  containerPort: 9090
+  containerPort: 80
   httpRoute:
     name: prometheus-httproute
     pathPrefix: /prometheus
   service:
-    name: service/prometheus
+    name: prometheus-server
   
