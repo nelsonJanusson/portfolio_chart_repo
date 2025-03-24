@@ -3,23 +3,9 @@ entries:
   application-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-24T03:11:43.350937+01:00"
-    dependencies:
-    - name: cilium
-      repository: https://helm.cilium.io/
-      version: 1.17.2
+    created: "2025-03-24T03:39:45.500287+01:00"
     description: the helm chart for deploying the portfolio application
-    digest: e73a9178298e32988483029fcdab6e40b19a8532b3945802167132d867d1e814
-    name: application-deployment
-    type: application
-    urls:
-    - https://nelsonjanusson.github.io/portfolio_chart_repo/application-deployment-1.0.2.tgz
-    version: 1.0.2
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2025-03-24T03:11:43.338556+01:00"
-    description: the helm chart for deploying the portfolio application
-    digest: 8dc0842b0faab543c2e89d128c4bcca03495d33b53ef93a0b65a109d627a68e8
+    digest: 22172eb285601f8e4701955d864abaa87f9ac01803ce2676bd7c5d390fe3384f
     name: application-deployment
     type: application
     urls:
@@ -27,7 +13,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-24T03:11:43.33787+01:00"
+    created: "2025-03-24T03:39:45.4999+01:00"
     description: A Helm chart for Kubernetes
     digest: b5e89bd2bbb099f1c06096874fca4b6f66c8c8b6dc2904974a00e7431ad72607
     name: application-deployment
@@ -35,4 +21,4 @@ entries:
     urls:
     - https://nelsonjanusson.github.io/portfolio_chart_repo/application-deployment-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-24T03:11:43.337037+01:00"
+generated: "2025-03-24T03:39:45.498744+01:00"
