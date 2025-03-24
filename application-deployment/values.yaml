@@ -42,3 +42,12 @@ postgresql:
   secret:
     name: postgresql-secret
     password: aDHqf7ghloP=
+
+prometheus:
+  containerPort: 9090
+  httpRoute:
+    name: prometheus-httpRoute
+    pathPrefix: /
+  service:
+    name: service/prometheus
+  
