@@ -47,7 +47,7 @@ prometheus:
   containerPort: 9090
   httpRoute:
     name: prometheus-httpRoute
-    pathPrefix: /
+    pathPrefix: /prometheus
   service:
     name: service/prometheus
   
