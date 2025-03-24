@@ -3,7 +3,17 @@ entries:
   application-deployment:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-24T14:17:13.693728+01:00"
+    created: "2025-03-24T14:20:51.456704+01:00"
+    description: the helm chart for deploying the portfolio application
+    digest: e15b4ceefbcfcb1324a67a16b7e76a3b4aa0088217dcfff27fdad21b6b69d8cc
+    name: application-deployment
+    type: application
+    urls:
+    - https://nelsonjanusson.github.io/portfolio_chart_repo/application-deployment-1.0.4.tgz
+    version: 1.0.4
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-03-24T14:20:51.456308+01:00"
     description: the helm chart for deploying the portfolio application
     digest: b56f363022b34b6fbd6c2d192e976512bbbdef48176e919aedd0d21b07522bdd
     name: application-deployment
@@ -13,7 +23,7 @@ entries:
     version: 1.0.3
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-24T14:17:13.69339+01:00"
+    created: "2025-03-24T14:20:51.455561+01:00"
     description: the helm chart for deploying the portfolio application
     digest: 122ed5bdcb1ce164ad58daa8def6289ad09d1bf151efd12f2a346cecbb39edb2
     name: application-deployment
@@ -23,7 +33,7 @@ entries:
     version: 1.0.2
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-24T14:17:13.692071+01:00"
+    created: "2025-03-24T14:20:51.454643+01:00"
     description: the helm chart for deploying the portfolio application
     digest: c683f01e80b664e974ba7160f1b8e53293bebd9260bbbfb269df18b58a69aa02
     name: application-deployment
@@ -33,7 +43,7 @@ entries:
     version: 1.0.1
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-03-24T14:17:13.690763+01:00"
+    created: "2025-03-24T14:20:51.453698+01:00"
     description: A Helm chart for Kubernetes
     digest: b5e89bd2bbb099f1c06096874fca4b6f66c8c8b6dc2904974a00e7431ad72607
     name: application-deployment
@@ -41,4 +51,4 @@ entries:
     urls:
     - https://nelsonjanusson.github.io/portfolio_chart_repo/application-deployment-1.0.0.tgz
     version: 1.0.0
-generated: "2025-03-24T14:17:13.688973+01:00"
+generated: "2025-03-24T14:20:51.452439+01:00"
