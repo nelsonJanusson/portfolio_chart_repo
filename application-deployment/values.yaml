@@ -46,7 +46,7 @@ postgresql:
 prometheus:
   containerPort: 9090
   httpRoute:
-    name: prometheus-httpRoute
+    name: prometheus-httproute
     pathPrefix: /prometheus
   service:
     name: service/prometheus
