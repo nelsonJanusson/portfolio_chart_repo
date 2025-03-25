@@ -43,11 +43,12 @@ postgresql:
     name: postgresql-secret
     password: aDHqf7ghloP=
 
-prometheus:
+grafana:
   containerPort: 80
-  httpRoute:
-    name: prometheus-httproute
-    pathPrefix: /prometheus
   service:
-    name: prometheus-server
+    name: grafana
+  httpRoute:
+    name: grafana-httproute
+    pathPrefix: /grafana
+    namespace: monitoring
   
