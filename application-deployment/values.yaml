@@ -22,7 +22,7 @@ frontend:
     name: frontend-pod
   httpRoute:
     name: frontend-httproute
-    pathPrefix: /
+    pathPrefix: /frontend
 
 
 gateway:
